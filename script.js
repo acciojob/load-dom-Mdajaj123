@@ -3,6 +3,6 @@ function input(){
 	const body=document.getElementsByTagName("body")[0];
 	const p=document.createElement("p");
 	p.innerText="DOM load success";
-	body.append(p);
+	body.appendchild(p);
 }
 input();
